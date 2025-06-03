@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Platform } from 'react-native';
 
 const API_BASE = Platform.select({
-  web: 'https://expensestracker-5.onrender.com/api',
+  web: 'https://expensetracker-nc0g.onrender.com/api',
   default: 'http://192.168.10.52:5000/api'
 });
 
